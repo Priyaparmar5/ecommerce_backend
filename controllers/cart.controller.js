@@ -6,7 +6,7 @@ const jwt = require("jsonwebtoken");
 
 const add = async (req, res) => {
   const {
-    cartId,
+   
     imageUrl,
     customerId,
     name,

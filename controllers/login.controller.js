@@ -20,7 +20,7 @@ const login = async (req, res) => {
         "secret"
       );
       res.json({
-        token: token
+        token: token,id:user.id
       });
     } else {
       res.status(401).json({ message: "Invalid credentials" });
